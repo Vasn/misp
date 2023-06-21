@@ -61,14 +61,18 @@ class DATABASE_CONFIG {
 
 	public $default = array(
 		'datasource' => 'Database/Mysql',
-		//'datasource' => 'Database/Postgres',
+		// 'datasource' => 'Database/Postgres',
 		'persistent' => false,
 		'host' => 'localhost',
+		// 'host' => 'misp-test-db.c7tp8qzbd8vx.ap-southeast-1.rds.amazonaws.com',
 		'login' => 'db login',
-		'port' => 3306, // MySQL & MariaDB
-		//'port' => 5432, // PostgreSQL
+		// 'login' => 'postgres',
+		// 'port' => 3306, // MySQL & MariaDB
+		'port' => 5432, // PostgreSQL
 		'password' => 'db password',
+		// 'password' => 'Adminmisp123!!',
 		'database' => 'misp',
+		// 'database' => '',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
